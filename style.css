@@ -1,0 +1,295 @@
+.nav{
+  /* padding-left: 15%; */
+    /* padding-top: -6%; */
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top:-25px;
+    align-items: centre;
+  
+}
+ 
+  nav ul li{
+      display: inline-flex;
+      list-style-type: none;
+      padding: 20px 50px;
+      font: 5px;
+  
+  }
+  #image{
+    width: 50px;
+    float: right;
+    height: 30px;
+    margin-top: 2.5%;
+    margin-left: 20%;
+  }
+  .brick{
+    background-color: yellow;
+    height: 50px;
+    
+  }
+  .h1{
+    padding-left: 300px;
+  }
+  .b2{
+    padding-left: 50px;
+    margin-left: 450px;
+    margin-top: -3%;
+    margin-bottom: -3%;
+    padding-right: 30px;
+   
+   
+  }
+
+  .b3{
+    font-size: x-large;
+  }
+
+  .p{
+    margin-left: 250px;
+    margin-top: -3%;
+  }
+  .p1{
+    margin-right: 65px;
+    float: right;
+    margin-top: -3%;
+  
+  }
+  #image1{
+    padding-left: 70px;
+    width: 500px;
+    height: 280px;
+    margin-top: -3%;
+  }
+  .select{
+    padding-left: 70%;
+    margin-top: -28%;
+    
+  }
+  .b4{
+    padding-left: 50px;
+  }
+  #b3{
+    padding-left: 25px;
+  }
+  .b6{
+    padding-left: 5px; 
+    
+  }
+  .b7{
+    padding-left: 25px;
+  }
+  .b8{
+    padding-left: 25px;
+  }
+  .b9{
+     background-color: yellow;
+     padding-left: 45px;
+    
+  }
+  .image1{
+    width: 300px;
+    height: 180px;
+    padding-left: 100px;
+  }
+  .image2{
+    padding-left: 100px;
+    width: 300px;
+    height: 180px;
+  }
+  .image3{
+    padding-left: 100px;
+    width: 300px;
+    height: 180px;
+  }
+  .image4{
+    padding-left: 100px;
+    height: 250px;
+    width: 300px;
+    margin-top: 4%;
+
+  }
+  .image5{
+    padding-left: 100px;
+    width: 200px;
+    height: 200px;
+    margin-top: -5%;
+  }
+  .image6{
+    padding-left: 120px;
+    width: 180px;
+    height: 200px;
+    
+  }
+  .image7{
+     padding-left: 30px;
+     
+     width: 200px;
+  }
+  .image8{
+     padding-left: 30px;
+     
+  }
+  .image9{
+      width: 180px;
+      height: 200px;
+      padding-left: 90px;
+  }
+  .image10{
+     padding-left: 90px;
+  }
+  .image11{
+    padding-left: 20px;
+    margin-top: 3%;
+    width: 200px;
+    height: 170px;
+  }
+  .image12{
+    padding-left: 60px;
+  }
+  .image13{
+   padding-left: 70px;
+   height: 170px;
+   
+  }
+  .image14{
+     padding-left: 80%;
+     margin-top: -18%;
+     height: 190px;
+  }
+
+  .b10{
+    background-color: yellow;
+    margin-left: 45%;
+    padding-left: 2%;
+    font-size: x-large;
+  }
+  
+  .f1{
+     padding-left: 10%;
+  }
+  .f2{
+    padding-left: 35%;
+    margin-top: -27%;
+  }
+  .f3{
+    padding-left: 60%;
+    margin-top: -18%; 
+    
+  }
+  .footer{
+    padding-left: 30%;
+    background-color: yellow;
+    height: 60px;
+
+  }
+  .f5{
+    padding-left: 30px;
+    margin-right: 70px;
+
+  }
+  .f6{
+    padding-left: 190px;
+    margin-left: 30px;
+    color: rgb(237, 13, 50);
+  }
+  #Info{
+     display: flex;
+       justify-content: space-between;
+       background-color:rgb(110, 110, 142);
+       margin-top: -4%;
+  }
+  .g{
+    padding-left: 40%;
+  }
+  .g1{
+    padding-left: 40%;
+  }
+  .series20{
+    margin-top: 10%;
+  }
+  .g2{
+    padding-left: 43%;
+  
+  }
+  .g3{
+    padding-left: 40%;
+  }
+  .box1{
+    padding-left: 30%;
+    margin-top: -17%;
+  }.box2{
+    padding-left: 55%;
+    margin-top: -22%;
+  }
+  .box3{
+    padding-left: 75%;
+    margin-top: -20%;
+  }
+  .avar{
+    margin-top: 3%;
+  }
+  .avar1{
+     padding-left: 27%;
+     margin-top: -20%;
+  }
+  .avar2{
+    padding-left: 51%;
+    margin-top: -23%;
+  
+  }
+  .avar3{
+    padding-left: 76%;
+    margin-top: -22%;
+  }
+  .t1{
+margin-top: 4%;
+  }
+  .t2{
+margin-top: 4%;
+  }
+  .t3{
+margin-top: 4%;
+  }
+  .t4{
+margin-top: 4%;
+  }
+
+
+
+
+
+
+ @media screen and(max-width:1100){
+  .series{
+    background-color: grey;
+    width: 100%;
+  }
+  .nav{
+    font-size: 18px;
+  }
+  .images{
+background-color:rgb(132, 87, 87);
+  }
+
+  .footer{
+    font-size: 17px;
+  }
+
+  
+ } 
+ @media screen and(min-width:400px){
+  .series{
+    background-color: grey;
+    width: 100%;
+  }
+  .nav{
+    font-size: 18px;
+  }
+  .images{
+background-color:rgb(132, 87, 87);
+  }
+
+  .footer{
+    font-size: 17px;
+  }
+ }
