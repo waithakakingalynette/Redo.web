@@ -1,0 +1,417 @@
+.nav{
+    /* padding-left: 15%; */
+      /* padding-top: -6%; */
+      display: flex;
+      /* justify-content: space-between; */
+      margin-top:-25px;
+      align-items: centre;
+    
+  
+  }
+  nav ul li{
+      display: inline-flex;
+      list-style-type: none;
+      padding: 20px 50px;
+      font: 5px;
+  
+  }
+  .brick{
+  background-color: yellow;
+  height: 60px;
+  
+}
+.b2{
+  padding-left: 50px;
+  margin-left: 450px;
+  margin-top: -3%;
+  margin-bottom: -3%;
+  padding-right: 30px;
+  /* padding-top: -5%; */
+  
+}
+.p{
+  margin-left: 250px;
+  margin-top: -3%;
+}
+.p1{
+  margin-right: 65px;
+  float: right;
+  margin-top: -3%;
+
+}
+
+#at{
+  margin-top: -1.5%;
+  margin-left: 12%;
+}
+#f{
+  color: rgb(185, 51, 96);
+  
+}
+.f1{
+  margin-left: 60%;
+  margin-top: -45%;
+}
+#f2{
+  margin-left: 65%;
+  margin-top: -20%;
+}
+
+.f3{
+  color: chartreuse;
+  margin-top: -1%;
+}
+.f4{
+  color: chartreuse;
+  margin-top: -1%;
+}
+.d1{
+  margin-left: 10%;
+  
+}
+#d1{
+  width: 350px;
+}
+
+.g4{
+  margin-top: 17%;
+  justify-content: space-between;
+  /* text-align: justify; */
+}
+
+.g1{
+ margin-left: 25%;
+ background-color: yellow;
+   border-radius: 20%;
+   color:white;
+   font-size:x-large;
+   font-weight: bold;
+   margin-right: 20px;
+   border-radius: 15px;
+
+}
+.g2{
+margin-left: 2%;
+background-color: white;
+   border-radius: 20%;
+   color: black;
+   font-size:x-large;
+   font-weight: bold;
+   margin-right: 20px;
+   border-radius: 15px;
+
+}
+.g3{
+ margin-left:3%;
+ background-color: white;
+   border-radius: 20%;
+   color: black;
+   font-size:x-large;
+   font-weight: bold;
+   margin-right: 20px;
+   border-radius: 15px;
+
+}
+
+.p2{
+margin-left: 40%;
+}
+.p3{
+margin-top: 2%;
+margin-left: 30%;
+border-style: solid;
+width: 260px;
+border-color: yellow;
+}
+.b4{
+  color: yellow;
+  width: 100px;
+  margin-left: 10%;
+  margin-top: -3%;
+}
+.b1{
+  font-size: xx-large;
+}
+.b3{
+  margin-left: 10%;
+  font-size: x-large;
+}
+.h{
+  color: green;
+  font-size: xx-large;
+  margin-top: -2%;
+}
+.b{
+  background-color: yellow;
+  font-size: xx-large;
+   border-radius: 20%;
+   color: black;
+   margin-right: 20px;
+   border-radius: 15px;
+
+}
+.d{
+  margin-left: 40%;
+  margin-top: -7%;
+  background-color: yellow;
+  width: 20px;
+  color: black;
+  
+}
+.g{
+  margin-left: 30%;
+}
+.box{
+  margin-left: 5%;
+}
+
+.box1{
+  padding-left: 30%;
+  margin-top: -18%;
+}
+
+.box2{
+  padding-left: 58%;
+  margin-top: -18%;
+}
+
+.box3{
+  padding-left: 79%;
+  margin-top: -23%;
+  
+}
+
+#footer{
+  display: flex;
+    justify-content: space-between;
+    background-color:rgb(136, 16, 136);
+    color: white;
+}
+.plus{
+  margin-left: 20%;
+}
+.h1{
+margin-left: 40%;
+}
+.h2{
+margin-left: 15%;
+border-style: solid;
+width: 280px;
+border-color: yellow;
+}
+.h3{
+margin-left: 45%;
+margin-top: -16%;
+border-style: solid;
+width: 230px;
+border-color: yellow;
+}
+.imag{
+  margin-left: 4%;
+  margin-top: -5%;
+}
+#booh2{
+  width: 90px;
+  margin-top: 3%;
+}
+#booh1{
+  width: 70px;
+  margin-top: 3%;
+}
+#booh3{
+  max-width: 110px;
+  margin-top:3%;
+  border-style: solid;
+  border-color: yellow;
+  
+}
+.booh4{
+  margin-top: 3%;
+  width: 70px;
+}
+#booh5{
+  width: 90px;
+  margin-top: 3%;
+}
+
+
+
+
+
+@media only screen and(max-width:700px) {
+  body{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  }
+  .nav{
+    font-size: 20px;
+  }
+  .brick{
+    display: grid;
+grid-template-columns: repeat(1,1fr);
+width: 100%;
+  }
+  .imag{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: (1,1fr);
+  }
+  .boxes{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: (1,1fr);
+  }
+  .imag2{
+    max-width: 100%;
+  }
+  .d1{
+    max-width: 100%;
+  }
+  #footer{
+    width: 10%;
+    
+  }
+
+  }
+  
+   
+@media screen and (max-width:768px) {
+  
+    body{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    }
+    .imag{
+      max-width: 100%;
+    }
+    .boxes{
+      max-width: 100%;
+    }
+    .imag2{
+      max-width: 100%;
+    }
+    .d1{
+      max-width: 100%;
+    }
+    }
+    
+
+@media screen and (max-width:1200px){
+  body {
+    
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      }
+      .imag{
+        max-width: 100%;
+      }
+      .boxes{
+        max-width: 100%;
+      }
+      .imag2{
+        max-width: 100%;
+      }
+      .d1{
+        max-width: 100%;
+      }
+      }
+
+  
+ 
+
+
+@media screen and (min-width: 230px) {
+  body {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      }
+      .imag{
+        max-width: 100%;
+      }
+      .boxes{
+        max-width: 100%;
+      }
+      .imag2{
+        max-width: 100%;
+      }
+      .d1{
+        max-width: 100%;
+      }
+    
+      }
+
+  
+  
+  /* Mobile Responsive CSS */
+    @media only screen and (max-width: 767px) {
+      body{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        }
+        .nav{
+          font-size: 20px;
+        }
+        .brick{
+          display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 100%;
+        }
+        .imag{
+          max-width: 100%;
+          display: grid;
+          grid-template-columns: (1,1fr);
+        }
+        .boxes{
+          max-width: 100%;
+          display: grid;
+          grid-template-columns: (1,1fr);
+        }
+        .imag2{
+          max-width: 100%;
+        }
+        .d1{
+          max-width: 100%;
+        }
+        #footer{
+          width: 10%;
+  }
+        }
+        
+         
+/* Tablet Responsive CSS */
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+          body{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            }
+            .nav{
+              font-size: 20px;
+            }
+            .brick{
+              display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+            }
+            .imag{
+              max-width: 100%;
+              display: grid;
+              grid-template-columns: (1,1fr);
+            }
+            .boxes{
+              max-width: 100%;
+              display: grid;
+              grid-template-columns: (1,1fr);
+            }
+            .imag2{
+              max-width: 100%;
+            }
+            .d1{
+              max-width: 100%;
+            }
+            #footer{
+              width: 10%;
+      }
+
+            }
+            
+             
