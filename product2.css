@@ -1,0 +1,438 @@
+.nav{
+      display: flex;
+      margin-top:-25px;
+      align-items: centre;
+    
+  
+  }
+  nav ul li{
+      display: inline-flex;
+      list-style-type: none;
+      padding: 20px 50px;
+      font: 5px;
+  
+  }
+
+.brick{
+background-color: yellow;
+height: 65px;
+
+}
+.b2{
+    /* padding-left: 50px; */
+    margin-left: 450px;
+    /* margin-top: -12%; */
+    padding-top: -7px;
+    margin-top: -12px;
+    /* padding-top: -7%; */
+    border-radius: 20px;
+    /* margin-bottom: -2%; */
+    /* padding-right: 30px; */
+    
+  }
+  .p{
+    margin-left: 250px;
+    margin-top: -3%;
+  }
+  .p1{
+    margin-right: 65px;
+    float: right;
+    margin-top: -3%;
+  
+  }
+  #booh10{
+    width: 150px;
+    margin-top: 3%;
+  }
+  #down5{
+    width: 150px;
+    height: 150px;
+    margin-top: 4%;
+  }
+  
+
+  .f{
+     margin-left: 55%;
+     margin-top: -49%;
+     
+  }
+  .w{
+    color: grey;
+  }
+
+  .f1{
+     margin-left: 55%;
+     margin-top: 10%;
+  }
+  .w1{
+    color: grey;
+
+  }
+
+  .f2{
+     margin-left: 55%;
+     margin-top: 12%;
+  }
+  .w2{
+    color: grey;
+
+  }
+  
+  #box2{
+    margin-top: 3%;
+    margin-right: 5px;
+    height: 120px;
+    width: 150px;
+  }
+
+  .images{
+    margin-left: 15%;
+    grid-template-columns: 1,1fr;
+  }
+
+  .b{
+     /* /* border-color: green; */
+     color: green;
+     margin-top: 5%;
+     border-radius: 20%;
+   font-size:x-large;
+   font-weight: bold;
+   margin-right: 20px;
+   border-radius: 15px;
+   margin-left: 5%; 
+   width: 200px;
+   height: 40px;
+
+  }
+
+  .b1{
+    background-color: yellow;
+    border-radius: 20%;
+   font-size:x-large;
+   font-weight: bold;
+   margin-right: 20px;
+   border-radius: 15px;
+    color: white;
+    font: 15px;
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 200px;
+    height: 40px;
+  }
+
+  .t{
+     margin-left: 5%;
+  }
+
+ .t2{
+    margin-top: 5%;
+    margin-left: 5%;
+
+ }
+
+  .t3{
+    margin-left: 55%;
+    margin-top: -17%;
+  }
+
+  .product{
+    border-style: solid;
+    border-radius: 20%;
+   font-size:x-large;
+   font-weight: bold;
+   height: 75%;
+   margin-right: 20px;
+   border-radius: 15px;
+    border-color: gray;
+    margin-left: 65%;
+    margin-top: -47%;
+    display: grid;
+    width: 300px;
+  }
+  .booh{
+    margin-left: 5%;
+  }
+
+  #imag{
+    margin-top: 10%;
+  }
+
+  #imag1{
+     margin-top: 10%;
+  }
+
+  #imag2{
+    margin-top: 10%;
+    width: 200px;
+  }
+
+  #imag3{
+    margin-top: 10%;
+    height: 150px;
+    
+  }
+
+  .q{
+    margin-top: 25%;
+    margin-left: 40%;
+  }
+
+  .q2{
+    margin-left: 30%;
+    margin-top: -25%;
+  }
+
+  .q3{
+    margin-left: 57%;
+    margin-top: -23%;
+  }
+
+  .q4{
+    margin-left: 80%;
+    margin-top: -17%;
+  }
+
+  #footer{
+    margin-top: 5%;
+    display: flex;
+      justify-content: space-between;
+      background-color:rgb(58, 21, 58);
+      color: white;
+      grid-template-columns: 1fr,1fr,1fr,1fr;
+  }
+
+
+  @media screen and(min-width:230px)and(max-width:768px){
+    body{
+      width: 100%;
+    padding-left: 23px;
+    flex-direction: column-reverse;
+    }
+    .nav{
+      font-size: 20px;
+    }
+    .brick{
+      display: grid;
+  grid-template-columns: repeat(1fr);
+  width: 100%;
+  
+    }
+    .f{
+      margin-left: 55%;
+      margin-top: 50%;
+      
+   }
+   
+ 
+   .f1{
+      margin-left: 55%;
+      margin-top: 30%;
+   }
+ 
+   .f2{
+      margin-left: 55%;
+      margin-top: 20%;
+   }
+   
+    .b2{
+      margin-top: -4%;
+      margin-right: 20px;
+    }
+    .images{
+      grid-template-columns: 1fr;
+
+    }
+    .product{
+       grid-template-columns:repeat(1fr);
+       margin-right: 35%;
+       margin-top: 60px;
+       flex-direction: column;
+       width: 200px;
+       height: 200px;
+       font: 3px;
+    }
+    .image{
+      grid-template-columns: 1fr;
+      flex-direction: column;
+      width: 120px;
+      height: 100px;
+      
+    }
+    #booh10{
+     width: 30%;
+    }
+    #box2{
+    width: 150px;
+    height: 100px;
+    }
+    #down2{
+    width: 30%;
+    height: 100px;
+    }
+    #imag{
+    width: 150px;
+    grid-template-columns: 1fr;
+    margin-right: 20px;
+    align-items: start;
+    }
+    #imag1{
+      width: 150px;
+      grid-template-columns: 1fr;
+    }
+    #imag2{
+      width: 150px;
+      grid-template-columns: 1fr;
+    }
+    #imag3{
+      width: 150px;
+      grid-template-columns: 1fr;
+    }
+    .q1{
+    grid-template-columns: 1fr;
+    }
+    .q2{
+      grid-template-columns: 1fr;
+    margin-right: 20px;
+    }
+    .q3{
+      grid-template-columns: 1fr;
+    margin-right: 20px;
+    }
+    .q4{
+      grid-template-columns: 1fr;
+     margin-right: 20px;
+    }
+    #footer{
+      grid-template-columns: 1fr;
+      width: 100%;
+      flex-direction: column;
+    }
+  }
+
+
+  @media screen and (min-width:769px)and(max-width:900px){
+    .nav{
+      font-size: 20px;
+    }
+    .brick{
+      display: grid;
+  /* grid-template-columns: repeat(1fr,1fr); */
+  width: 100%;
+    }
+    .f{
+      margin-left: 55%;
+      margin-top: 50%;
+      
+   }
+ 
+   .f1{
+      margin-left: 55%;
+      margin-top: 35%;
+   }
+ 
+   .f2{
+      margin-left: 55%;
+      margin-top: 20%;
+   }
+   
+    .images{
+      grid-template-columns: 1fr,1fr ,1fr;
+      
+    }
+    #booh10{
+      width: 30%;
+     }
+     #box2{
+     width: 150px;
+     height: 100px;
+     }
+     #down2{
+     width: 30%;
+     height: 100px;
+     }
+
+    .product{
+       grid-template-columns:1fr,1fr,1fr;
+       margin-right: 40%;
+       margin-top: 15%;
+    }
+    .image{
+      grid-template-columns: 1fr,1fr,1fr;
+    }
+    #footer{
+      display:grid;
+      grid-template-rows: 1fr,1fr,1fr;
+      width: 100%;
+    }
+
+  }
+
+  @media screen and(min-width:901){
+    .nav{
+      font-size: 20px;
+    }
+    .brick{
+      display: grid;
+  /* grid-template-columns: repeat(1fr,1fr); */
+  width: 100%;
+    }
+    .f{
+      margin-left: 55%;
+      margin-top: -50%;
+      
+   }
+ 
+   .f1{
+      margin-left: 55%;
+      margin-top: 20%;
+   }
+ 
+   .f2{
+      margin-left: 55%;
+      margin-top: 20%;
+   }
+   
+    .images{
+      grid-template-columns: 1fr,1fr ,1fr,1fr;
+      
+    }
+    #booh10{
+      width: 30%;
+     }
+     #box2{
+     width: 150px;
+     height: 100px;
+     }
+     #down2{
+     width: 30%;
+     height: 100px;
+     }
+
+    .product{
+       grid-template-columns:1fr,1fr,1fr,1fr;
+       margin-right: 40%;
+       margin-top: 15%;
+    }
+    .image{
+      grid-template-columns: 1fr,1fr,1fr,1fr;
+    }
+    #footer{
+      display:grid;
+      grid-template-rows: 1fr,1fr,1fr,1fr;
+      width: 100%;
+    }
+
+  }
+  
+
+  
+  
+  
+ 
+  
+  
+  
+  
+  
+  
+  

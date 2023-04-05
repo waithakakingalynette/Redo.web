@@ -340,9 +340,9 @@ margin-top: 4%;
       display: grid;
     }
     .fox{
-      width: 50px;
+      width: 100%;
       display: grid;
-      grid-template-columns:repeat(1,1fr);
+      grid-template-columns:repeat(1fr);
     }
     .f1{
       padding-left: 10%;
@@ -613,9 +613,13 @@ margin-top: 4%;
           .series{
             background-color: grey;
             width: 100%;
+            margin-right: 30px;
+
           }
           .nav{
-            font-size: 18px;
+            font-size: 10px;
+
+
           }
           .images{
         background-color:rgb(132, 87, 87);
@@ -634,7 +638,8 @@ margin-top: 4%;
           .brick{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        width: 20px;
+        width: 150px;
+        height: 50px;
           }
           .p{
             margin-right: -2%;
@@ -643,8 +648,8 @@ margin-top: 4%;
             margin-left: 80%;
           }
           #image{
-            width: 200px;
-            margin-right: 5%;
+            width:40%;
+            margin-right: 10%;
           
           }
           .series20 img{
@@ -680,6 +685,11 @@ margin-top: 4%;
            width: 50px;
            height: 50px;
            
+         }
+         #image{
+          width: 60px;
+          margin-right: 160%;
+          margin-top: 5%;
          }
          #image1{
           width: 10%;
